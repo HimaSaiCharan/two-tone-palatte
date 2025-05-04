@@ -48,6 +48,12 @@ body {
 .palatte-container {
   box-shadow: 0 0 10px #b1b0b1;
   border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.palatte-container:hover {
+  transform: translateY(-8px);
 }
 
 .palatte-view {
